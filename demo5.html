@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+#div1,#div2
+{
+border:3px solid Blue;
+border-radius:10px;
+padding:5px;
+width:550 px;
+height:130px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h3>HTML5 APLs-drag&drop</h3>
+<hr/>
+<div id ="div1" style= "background-color :LightBlue;">
+<img  src="/home/amani/Downloads/relax.jpg" height ="90" width ="90" id=="img1" draggable ="true" ondragstart="f1(event)"/>
+</div>
+
+<br></br>
+<div id ="div2" ondragover="f2(event)" ondrop="f3(event)" style="background-color:Lightpink;">
+</div>
+<script>
+var imagId;
+function f1(event)
+{
+imgId= event.target.id;
+
+
+function f2(event)
+{
+event.preventDefault( );
+var obj = document.getElementById(ImgId);
+event.target.appendChild(obj);
+}
+</script>
+</body>
+</html>
