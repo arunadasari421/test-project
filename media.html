@@ -1,0 +1,126 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <style>
+        body {
+            margin-top: 0px;
+            background: lightskyblue;
+            height: 100%;
+        }
+
+        .header-container {
+            background-color: chartreuse;
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 11px;
+        }
+        .header-container > div{
+            padding-top:20px;
+        }
+        .navigation-container{
+            display: flex;
+            justify-content: space-around;
+            background: peru;
+            padding:20px;
+        }
+
+        .row-flex-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .box {
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            background: blueviolet;
+            text-align: center;
+
+        }
+
+       
+        @media only screen and (min-width:600px)and (max-width:900px){
+            .header-container{
+                background: lightslategray ;
+            }
+             .box{
+        
+                margin-left:10px;
+                background:palevioletred;
+                }
+                .navigation-container{
+                    background:burlywood;
+                }
+        
+                 }
+             @media only screen and (max-width:600px){
+            .header-container{
+                background: red;
+            }
+            .row-flex-container{
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+        }
+        .navigation-container{
+            display: none;
+        }
+        .box {
+            margin-bottom: 10px;
+            background: yellow;
+        }
+        }
+    </style>
+
+
+
+<body>
+    <div class="body-container">
+        <div class="header-container">
+            <h3>VBM INFO TECH</h3>
+            <div>logout</div>
+        </div>
+        <div class="navigation-container">
+            <a href="home.html">home</a>
+            <a href="services.html">services</a>
+            <a href="users.html">users</a>
+            <a href="about.html">about</a>
+
+        </div>
+
+        <div class="main-container">
+            <div class="row-flex-container">
+                <div class="box">
+                    
+                        <div>maths</div>
+                        <div>83%</div>
+                    
+                </div>
+                <div class="box"> 
+                    
+                        <div>social</div>
+                        <div>90%</div>
+                    
+                </div>
+                <div class="box">
+                    
+                        <div>scince</div>
+                        <div>95%</div>
+                
+                </div>
+                <div class="box">
+                
+                     <div>english</div>
+                        <div>96%</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </di+
+    v>
+</body>
