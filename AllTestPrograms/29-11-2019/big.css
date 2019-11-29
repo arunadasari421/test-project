@@ -1,0 +1,90 @@
+body{
+    margin:0px;
+}
+.head-container{
+    width:100%;
+    height: 50px;
+    background:lightblue;
+    display: flex;
+    justify-content:space-between;
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-around;
+    background: lightgoldenrodyellow;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.row-flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.onions{
+    height:550px;
+    width: 300px;
+    border: 1px solid lightskyblue;
+    margin-bottom: 20px;
+}
+.onions-img{
+    height: 200px;
+    padding-left:70px;
+}
+.onions-data{
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+
+}
+select{
+    width:100px;
+    margin-left:15px;
+
+}
+
+.row1{
+    padding-left:235px;
+    margin-top:50px;
+}
+.continue {
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 5px;
+    color:green;
+
+}
+.proceed{
+    text-align: center;
+    background: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.shopping{
+    padding-left:330px;
+
+    }
+hr{
+    margin-top:22px;
+    width: 888px;
+    
+}
+.cart-data{
+    display: flex;
+    justify-content: space-around;
+    width: 888px;
+    padding-left:195px;
+}
+.cart-data2{
+    display: flex;
+    
+    
+    flex-direction: column;
+    padding-left:950px;
+
+}

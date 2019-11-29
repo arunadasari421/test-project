@@ -1,0 +1,56 @@
+.row{
+    
+    text-align: center;
+
+    }
+.col-md-4{
+    background-color: greenyellow;
+
+    }
+    .bigbasketimg{
+        height: 39px;
+        width: 61px;
+        margin-right: 401px;
+    }
+    .cartimg{
+        height: 39px;
+        width: 61px;
+        margin-left: 343px;
+    }
+    .navigation{
+        background:lightcoral;
+    }
+    .col-md-3{
+        background:white;
+        padding-top:8px;
+        margin-bottom: 10px;
+    }
+    a{
+        color: black;
+    }
+    .onions{
+        height:550px;
+        width: 300px;
+        border: 1px solid lightskyblue;
+        margin-bottom: 20px;
+    }
+    .onions-img{
+        height: 200px;
+        padding-left:70px;
+    }
+    .onions-data{
+        flex-direction: column;
+        display: flex;
+        justify-content: left;
+        margin-left: 15px;
+    
+    }
+    select{
+        width:100px;
+        margin-left:15px;
+    
+    }
+    .col{
+        background: blue;
+    }
+    

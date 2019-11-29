@@ -1,0 +1,90 @@
+.header-container{
+    width:100%;
+    background: red;
+    text-align: center;
+    height:60px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+.row{
+    height:90px ;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+}
+
+.col-md-4{
+    background-color: greenyellow;
+    border:1px solid black;
+            padding-top:30px;
+
+    
+
+    }
+        
+      .col-md-6{
+            background-color:blueviolet;
+            border:1px solid black;
+            padding-top:40px;
+            }
+            
+        
+        
+        
+            .col-md-3{
+                background-color: palevioletred;
+                border:1px solid black;
+            padding-top:40px;
+
+        
+                }
+                
+            .col-md-2{
+                   background-color:palegreen;
+                   border:1px solid black;
+                   padding-top:40px;
+       
+            
+                    }
+                     .col-md-1{
+                        background-color:olive;
+                        border:1px solid black;
+                        padding-top:40px;
+            
+                        }
+                        
+                    
+                    
+                    
+                    
+                    
+                                
+                
+                                        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
